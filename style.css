@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+
+h1{
+    color: rgb(77, 77, 77);
+    text-align: center;
+    font-size: 3em;
+}
+form{
+    background-color: white;
+    max-width: 350px;
+    margin:auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 2em;
+    font-weight: bold;
+}
+input{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+button{
+    background-color: rgb(0, 158, 0);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+button:hover{
+    background-color: rgb(0, 134, 0);
+}
+#total{
+    font-size: 2em;
+}
+#totalAmount{
+    color: rgb(0, 173, 0);
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    display: none;
+    position: absolute;
+    font-size: 1em;
+}
+
+#principalError {
+    top: calc(100% + 5px);
+}
+
+#rateError {
+    top: calc(100% + 5px);
+}
+
+#yearsError {
+    top: calc(100% + 5px);
+}
