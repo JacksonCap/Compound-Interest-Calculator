@@ -51,23 +51,4 @@ button:hover{
 #totalAmount{
     color: rgb(0, 173, 0);
     font-weight: bold;
-}
-
-.error {
-    color: red;
-    display: none;
-    position: absolute;
-    font-size: 1em;
-}
-
-#principalError {
-    top: calc(100% + 5px);
-}
-
-#rateError {
-    top: calc(100% + 5px);
-}
-
-#yearsError {
-    top: calc(100% + 5px);
-}
+}
